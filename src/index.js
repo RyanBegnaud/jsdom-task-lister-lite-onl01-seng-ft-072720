@@ -1,5 +1,5 @@
 let sub = document.querySelector('#create-task-form').addEventListener("submit", function(e){
   e.preventDefault();
-  let des = document.querySelector('input[name="new-task-description"]').innerHTML
-  console.log(des)
+  let des = document.querySelector('input[name="new-task-description"]')
+  console.log(des.innerHTML)
 })
