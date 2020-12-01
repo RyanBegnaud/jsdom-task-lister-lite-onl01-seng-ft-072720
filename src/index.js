@@ -3,4 +3,5 @@ let sub = document.querySelector('#create-task-form').addEventListener("submit",
   let des = document.querySelector('input[name="new-task-description"]')
   let tasks = document.querySelector("#tasks")
   let newTasks = document.createElement("li")
+  newTasks.innerHTML = des.value 
 })
