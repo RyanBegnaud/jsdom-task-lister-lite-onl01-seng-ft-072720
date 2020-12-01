@@ -1,1 +1,1 @@
-let sub = document.querySelector('#create-task-form submit'
+let sub = document.querySelector('#create-task-form submit')
